@@ -1,0 +1,7 @@
+[server]
+# Only this computer can reach the app. It has no login, so do not open it to the network as is.
+address = "127.0.0.1"
+maxUploadSize = 10
+
+[browser]
+gatherUsageStats = false

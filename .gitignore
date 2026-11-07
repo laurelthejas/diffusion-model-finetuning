@@ -1,0 +1,21 @@
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# Weights, generated images and data stay out of git
+*.safetensors
+*.ckpt
+*.pt
+*.bin
+outputs/
+weights/
+diffusion_finetuning/
+.streamlit/secrets.toml
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
