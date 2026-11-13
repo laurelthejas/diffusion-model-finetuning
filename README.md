@@ -225,6 +225,7 @@ Project 1 uses a random 200 images by default, plus 6 more held out of training 
 
 MIT: see [LICENSE](LICENSE). The code in this repository is MIT licensed; the models and datasets are downloaded at runtime and keep their own terms: [Stable Diffusion 1.5](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5) (CreativeML OpenRAIL-M), [BLIP](https://huggingface.co/Salesforce/blip-image-captioning-base) (BSD-3-Clause), [CLIP](https://huggingface.co/openai/clip-vit-base-patch32) (released by OpenAI under MIT, and described in its model card as a research model), [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist) (MIT), and the original terms of the Oxford 102 Flowers and Caltech-UCSD Birds image collections, which are published for research use. These photos are not stored in this repository: the notebook's saved outputs leave out the figures that display them.
 
-## 🔗 Related project
+## 🔗 Related projects
 
-[📖🖋️ C-Caption Transformer](https://github.com/laurelthejas/c-caption-transformer): a small transformer that learns from scratch to write and explain simple C programs. From an English caption it writes a plan, the C program and an explanation.
+- [📖🖋️ C-Caption Transformer](https://github.com/laurelthejas/c-caption-transformer): a small transformer that learns from scratch to write and explain simple C programs. From an English caption it writes a plan, the C program and an explanation.
+- [🧩 Autoencoders: Feature Extraction, Colorization and Enhancement](https://github.com/laurelthejas/autoencoders-recognize-colorize-enhance): three image autoencoders trained from scratch on CIFAR-10, which recognize objects and find similar images, add color to grayscale images, and remove noise and blur.
